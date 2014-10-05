@@ -1,0 +1,31 @@
+{
+  "name": "gentry-cli",
+  "description": "gentry cli runner",
+  "version": "0.0.1",
+  "homepage": "http://github.com/wearefractal/gentry-cli",
+  "repository": "git://github.com/wearefractal/gentry-cli.git",
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
+  "dependencies": {
+    "async": "^0.9.0",
+    "cli-color": "^0.3.2",
+    "coffee-script": "*",
+    "mongoose-schema-model": "0.0.3"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "should": "*"
+  },
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/gentry-cli/raw/master/LICENSE"
+    }
+  ]
+}
