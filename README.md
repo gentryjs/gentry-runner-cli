@@ -6,11 +6,11 @@
 
 <table>
 <tr> 
-<td>Package</td><td>APPNAME</td>
+<td>Package</td><td>gentry-cli</td>
 </tr>
 <tr>
 <td>Description</td>
-<td>DESCRIPTIONHERE</td>
+<td>cli runner for gentry</td>
 </tr>
 <tr>
 <td>Node Version</td>
@@ -21,7 +21,9 @@
 ## Usage
 
 ```coffee-script
-NOTHING HERE YET
+runner questions, (answers) ->
+    gentry.scaffold questions, actions, answers, ->
+      console.log 'scaffold complete.' 
 ```
 
 ## LICENSE
