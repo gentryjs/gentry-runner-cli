@@ -1,5 +1,5 @@
 {
-  "name": "gentry-cli",
+  "name": "gentry-runner-cli",
   "description": "gentry cli runner",
   "version": "0.0.1",
   "homepage": "http://github.com/wearefractal/gentry-cli",
