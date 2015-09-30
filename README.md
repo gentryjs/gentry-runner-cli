@@ -2,6 +2,11 @@
 
 [![NPM version](https://badge.fury.io/js/APPNAME.png)](http://badge.fury.io/js/APPNAME)
 
+
+# DEPRECATED
+## see [gentryjs/gentry-cli](https://github.com/gentryjs/gentry-cli)
+
+
 ## Information
 
 <table>
