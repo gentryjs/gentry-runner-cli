@@ -13,7 +13,7 @@
     "mongoose-schema-model": "0.0.3"
   },
   "devDependencies": {
-    "mocha": "2.3.3",
+    "mocha": "2.5.0",
     "should": "7.1.1"
   },
   "scripts": {
